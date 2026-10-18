@@ -10,5 +10,5 @@
 # Gemma4ForConditionalGeneration natively; E2B text + (batched) multimodal all pass.
 # vllm 0.22.0 pulls torch 2.11.0+cu130 and transformers 5.9.0 automatically.
 
-vllm==0.22.0
+vllm==0.30.0
 ninja          # build tool for flashinfer's CUDA JIT (MoE kernels on the 26B model)
